@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title>ЛАБОРАТОРНА РОБОТА №4 ПОЛИНЬКО КН-23</title>
+</head>
+<body>
+    <h1>Форма реєстрації на спортивну секцію</h1>
+    <form>
+        <fieldset>
+            <legend>Особиста інформація</legend>
+            <label for="fname">Ім'я:</label>
+            <input type="text" id="name" name="fname" required><br><br>
+
+            <label for="sname">Прізвище:</label>
+            <input type="text" id="name" name="sname" required><br><br>
+            
+            <label for="num">Улюблений номер:</label>
+            <input type="number" id="age" name="num" min="1" max="100"><br><br>
+            
+            <label for="birthday">Дата народження:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Ваші інтереси</legend>
+            <input type="checkbox" id="sport" name="interests" value="sport">
+            <label for="sport">Картинг</label><br>
+            
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Футбол</label><br>
+            
+            <input type="checkbox" id="books" name="interests" value="books">
+            <label for="books">Хоккей</label><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Стать</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Чоловік</label><br>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Жінка</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Інше</label><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Додаткова інформація</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="color">Улюблений колір:</label>
+            <input type="color" id="color" name="color"><br><br>
+            
+            <label for="file">Завантажити фото:</label>
+            <input type="file" id="file" name="file"><br><br>
+        </fieldset>
+        
+        <input type="submit" onclick="alert('Форма надіслана!')" value="Надіслати">
+        <input type="reset" value="Очистити">
+    </form>
+</body>
+</html>
