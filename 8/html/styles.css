@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header, footer {
+    color: indianred;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+h2 {
+    font-size: 24px0;
+    color: darkred;
+}
+
+.divsonglist {
+    background-color: black;
+    color: indianred;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border: 3px solid darkred;
+}
+
+main {
+    width: 50%;
+    background-color: indianred;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 22px;
+}
+
+footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
